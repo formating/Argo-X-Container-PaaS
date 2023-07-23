@@ -1,6 +1,6 @@
 services:
   app:
-    image: formating/arg-x:latest
+    image: formating/argo-x:latest
     ports:
       - "80:3000"
     environment:
