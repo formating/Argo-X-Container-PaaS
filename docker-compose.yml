@@ -15,3 +15,5 @@ services:
       - WSPATH=$WSPATH
       - UUID=$UUID
       - SSH_DOMAIN=$SSH_DOMAIN
+    volumes:
+      - ./files:/app
